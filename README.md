@@ -19,3 +19,8 @@ The game reserves its 32 MiB heap blocks at a random address in the 7-8 TiB rang
 - `AND ECX, 0xFE` becomes `AND ECX, 0x7E`
 
 The patcher locates both instructions by byte signature and refuses files where either is not found exactly once.
+
+
+## Special Thanks
+
+[Zod](https://github.com/zod701) First figured out the memory allocation issue, which allowed for this patch to be created. Thanks!
