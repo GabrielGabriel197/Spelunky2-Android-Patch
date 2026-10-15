@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spelunky 2 Android Patch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Spelunky 2 Android Patch</h1>
+    <p>
+      Select your own <code>Spel2.exe</code> to get a version that runs on Android compatibility
+      layers (GameNative, DroidDeck). The file is patched locally in your browser and is never uploaded.
+    </p>
+    <input id="file" type="file" accept=".exe">
+    <p id="status"></p>
+    <p id="hash"></p>
+    <a id="download" class="button" hidden>Download patched Spel2.exe</a>
+    <p class="note">
+      The patch lowers the heap allocation address from the 7-8 TiB range to below 512 GiB.
+    </p>
+  </main>
+  <script src="patcher.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #1b1b1f; color: #e8e8ec; }
+main { max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+code { background: #2c2c33; padding: 0.1em 0.3em; border-radius: 3px; }
+#status.error { color: #ff6b6b; }
+#hash { font-family: monospace; font-size: 0.8rem; word-break: break-all; color: #9a9aa5; }
+.button { display: inline-block; padding: 0.6rem 1rem; background: #4c8bf5; color: #fff; border-radius: 4px; text-decoration: none; cursor: pointer; }
+.button[hidden] { display: none; }
+.note { color: #9a9aa5; font-size: 0.9rem; }
