@@ -1,7 +1,7 @@
 # Spelunky2-Android-Patch
 Patcher for the Spelunky 2 exe, so it can run on android via compatibility layers (Such as DroidDeck)
 
-Open the [GitHub Pages site] (https://gabrielgabriel197.github.io/Spelunky2-Android-Patch/), select your own `Spel2.exe` (located in the game game's folder), and download the patched copy. Patching happens entirely in the browser; no game files are hosted or uploaded.
+Open the [GitHub Pages site](https://gabrielgabriel197.github.io/Spelunky2-Android-Patch/), select your own `Spel2.exe` (located in the game game's folder), and download the patched copy. Patching happens entirely in the browser; no game files are hosted or uploaded.
 
 Simply replace the .exe in the game's folder with your patched version (most easily done in desktop mode, right click the game, Installed Files, browse local files, replace Spel2.exe).
 
